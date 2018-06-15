@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import LucyChat from "./LucyChat.js";
 import JadeChat from "./JadeChat.js";
 import NineChat from "./NineChat.js";
-import { TabNavigator } from "react-navigation";
+import { createMaterialTopTabNavigator } from "react-navigation";
 import { Button, Text, Icon, Footer, FooterTab } from "native-base";
-export default (MainScreenNavigator = TabNavigator(
+export default (MainScreenNavigator = createMaterialTopTabNavigator(
   {
     LucyChat: { screen: LucyChat },
     JadeChat: { screen: JadeChat },

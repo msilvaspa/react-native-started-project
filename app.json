@@ -1,4 +1,7 @@
 {
   "name": "another-react-native-app",
-  "displayName": "another-react-native-app"
+  "displayName": "another-react-native-app",
+  "expo": {
+    "sdkVersion": "27.0.0"
+  }
 }
